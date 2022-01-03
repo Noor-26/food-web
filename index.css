@@ -276,13 +276,19 @@ label{
     /* border: 2px solid black; */
     border: 0px solid white;
     border-radius: 3px;
-    box-shadow: 0px 0px 2px 1px  black ;
+    /* box-shadow: 0px 0px 2px 1px  black ; */
+    border: 2px solid black;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
+    font-weight: 900;
 }
 
 #sub:hover{
-    box-shadow: 0 0 10px black;
+    background-color: crimson;
+    box-shadow: 0px 0px 5px 3px crimson;
+    font-weight: 900;
+    color: white;
+    border: none;
 }
 
 #sub > a{   
